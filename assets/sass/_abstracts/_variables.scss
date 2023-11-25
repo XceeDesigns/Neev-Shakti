@@ -1,0 +1,91 @@
+$bootstrap-sass-asset-helper: false !default;
+
+// Variables
+// Colors
+
+$title-color: #0e2c53;
+$theme-one: #8240a3;
+$theme-color: #92278f;
+$button-bg: #782075;
+$theme-two: #ee463b; //#EE463B;
+$theme-three: #6abcbe;
+$theme-four: #ffc600;
+$theme-five: #92b92b;
+$theme-six: #c44057; 
+$theme-seven: #953ea7; 
+$theme-eight: #00bdc0; 
+$theme-nine: #f76048; 
+$body-color :#707070;
+$footer-color: #06163a;
+// $primary-color: #130f40;
+// $primary-color: #30336b;
+$primary-color: #0a3d62;
+// $primary-color: #0c2461;
+$border-color: #e5e5e5;
+// $grey-color: #696969;
+$ash-color: #fafafa;
+$white-color: #fff;
+$lallu-color : #e883ae;
+$dark-color: #192e41;
+// $section-bg: #394247;
+$section-bg: #ffffff;
+$section-bg-2: #fafafa;
+// $body-bg: #31383c;
+$body-bg: #fffaf7;
+
+// social-media icons color
+$whatsapp: #25d366;
+$facebook: #3b5998;
+$twitter: #55acee;
+$linkedin: #007bb5;
+$pinterest: #007bb5;
+$skype: #2fb7df;
+$youtube: #cd201f;
+$google: #dd4b39;
+$camera: #e4405f;
+$instagram: #e4405f;
+$tumblr: #34465d;
+$behance: #1769ff;
+$star: #e9ba17;
+$green: #0be881;
+$green-h: #0fbcf9;
+$red: #f53b57;
+$yellow: #dec32b;
+$nell: #212fb4;
+$navy: #d8e0f3;
+$placeholder: #a1a1a2;
+$name-dec: #3f485d;
+$futbol : #db3776;
+$vimeo : #1ab7ea;
+$dribble : #ea4c89;
+//== Typography
+
+// font-family
+$Heading: 'Barlow Condensed', sans-serif;
+$heading: 'Barlow Condensed', sans-serif;
+$Body: 'Barlow', sans-serif;
+$body: 'Barlow', sans-serif;
+
+// font-size
+$fs-base: 16px;
+$fs-large: 18px; 
+$fs-small: 14px;
+$fs-h1: 48px;
+$fs-h2: 36px;
+$fs-h3: 28px;
+$fs-h4: 24px;
+$fs-h5: 22px;
+$fs-h6: 20px;
+
+$fs-sm-h1: 80px;
+$fs-sm-h2: 70px;
+$fs-sm-h3: 36px;
+$fs-sm-h4: 30px;
+$fs-sm-h5: 24px;
+$fs-sm-h6: 22px;
+
+ //Description line height
+ $lh-p: 28px; //28px;
+
+ //  transition
+$transition: all ease 0.3s;

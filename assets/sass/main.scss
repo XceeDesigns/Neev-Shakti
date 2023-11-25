@@ -1,0 +1,51 @@
+/*!
+Template Name: lonelypro
+Template URI: https://Teamplate.net/user/codexcoder
+Author: codexcoder.com
+Author URI: https://Teamplate.net/user/codexcoder
+Description: Description
+Version: 1.0.0
+Text Domain: lonelypro
+Tags: Causes, charity, charity hub, donate, donations, foundation, fundraising, ngo, non profit, non-profit, nonprofit, organization
+
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Global CSS
+# Header CSS
+# Page Header
+# Banner
+# About
+# Features
+# Volunteer
+# Counter
+# Blog
+# Blog Widget
+# Sponsor
+# FAQ
+# Contact Us
+# Fore Zero Page
+--------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@import '_abstracts/_mixins';
+@import '_abstracts/_variables';
+@import '_base/_reset';
+@import '_base/_global';
+@import '_base/_typography';
+@import '_base/_about';
+@import '_layout/_footer';
+@import '_layout/_forms';
+@import '_layout/_header';
+@import '_layout/_banner';
+@import '_layout/_sidebar';
+@import '_layout/_section';
+@import '_layout/_animation';
+@import '_layout/_blog';
+@import '_components/_buttons';

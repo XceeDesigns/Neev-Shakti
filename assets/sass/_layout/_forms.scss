@@ -1,0 +1,150 @@
+/*Teacher Single Section Starts Here*/
+.volunteer-wrapper {
+    padding: 0; 
+    @include breakpoint(sm) {
+        padding: 60px 50px;
+        background-color: $white-color;
+        border-radius: 10px;
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);          
+    }
+    .subtitle {
+        text-transform: capitalize;
+        font-size: 18px;
+    }
+}
+.volunteer-single-item {
+    margin-bottom: 50px; 
+    align-items: flex-start;
+    justify-content: space-between;
+    .volunteer-single-thumb {
+        width: 100%;
+        margin-bottom: 30px; 
+        @include breakpoint(sm) {
+            margin-bottom: 40px;
+        }
+        @include breakpoint(md) {
+            margin-bottom: 50px;
+        }
+        @include breakpoint(xl) {
+            width: calc(50% - 25px);
+            margin-bottom: 0;
+        }
+        @include breakpoint(max-xl) {
+            // max-width: 450px;
+        }
+        img {
+            width: 100%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            border-radius: 50%;
+        }
+        box-shadow: 0px 2px 4px 3px rgba(83, 61, 82, 0.06);
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        border: 8px solid #fff;
+        a {
+            display: block;
+            overflow: hidden;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            border-radius: 50%;
+        }
+    }
+    .volunteer-single-content {
+        width: 100%; 
+        @include breakpoint(xl) {
+            width: calc(50% - 15px);
+        }
+        .title {
+            margin-bottom: 3px;
+            text-transform: capitalize;
+        }
+        p {
+            margin-bottom: 7px; 
+            &.header-p {
+                margin-bottom: 25px; 
+            }
+        }
+        .subtitle {
+            line-height: 38px;
+        } 
+        ul li {
+            line-height: 38px;
+            padding: 0; 
+            span {
+                display: inline-block; 
+                position: relative;
+                &.list-name {
+                    width: calc(115px);
+                }
+                &.list-attr {
+                    width: calc(100% - 115px);
+                    color: #000000; 
+                    &::after, &::before {
+                        @extend %pa;
+                        width: 2px;
+                        height: 2px;
+                        background-color: #000000;
+                        left: -10px;
+                    }
+                    &::after {
+                        top: 20px;
+                    }
+                    &::before{
+                        top: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+.volunteer-single-content ul li ul.list-attr li {
+margin-right: 20px; }
+.volunteer-single-content ul li ul.list-attr li:last-child {
+margin: 0; }
+.volunteer-single-content ul li ul.list-attr li a.behance {
+color: #1769ff; }
+.volunteer-single-content ul li ul.list-attr li a.vimeo {
+color: #1ab7ea; }
+.volunteer-single-content ul li ul.list-attr li a.twitter {
+color: #55acee; }
+.volunteer-single-content ul li ul.list-attr li a.futbol {
+color: #db3776; }
+.volunteer-single-content ul li ul.list-attr li a.instagram {
+color: #e4405f; }
+
+
+
+.volunteer-single-bottom .subtitle {
+margin-bottom: 25px; }
+.skill-item {
+    margin-bottom: 30px;
+}
+@media (min-width: 992px) {
+.skill-item {
+margin-right: 40px; } }
+.skill-item:last-child {
+margin-right: 0; }
+.skill-item .skill-thumb {
+margin-bottom: 15px; }
+.skill-item p {
+margin: 0;
+color: $title-color; }
+.skill-item .circles {
+    position: relative;
+    strong {
+        @extend %pa;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%); 
+        text-align: center;
+    }
+}
+.skill-item .circles canvas {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg); 
+}
