@@ -1,11 +1,12 @@
 ﻿<?php
+
 $name = $_POST['name'];
 $email = $_POST['email'];
 $phone = $_POST['phone'];
 $message = $_POST['message'];
 $subject = $_POST['subject'];
 
-$to = 'yourmail@gmail.com';
+$to = 'kdwivedi343@gmail.com';
 
 $from = 'no-reply@yourmail.com';
 
