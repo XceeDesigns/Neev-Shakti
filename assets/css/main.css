@@ -9144,8 +9144,13 @@ div[class*=col]:nth-of-type(3n+3) .post-top .post-by {
 }
 
 .custom-media {
-  margin-left: 9rem ;
-  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.custom-widget{
+  margin-top: 5rem;
 }
 
 
