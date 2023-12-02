@@ -9143,4 +9143,9 @@ div[class*=col]:nth-of-type(3n+3) .post-top .post-by {
   font-size: 0.8rem;
 }
 
+.custom-media {
+  margin-left: 9rem ;
+  margin-top: 2rem;
+}
+
 
